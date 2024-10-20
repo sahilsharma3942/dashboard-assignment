@@ -1,0 +1,40 @@
+/* main content top */
+.main-content-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  .sidebar-toggler {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+  }
+  .sidebar-toggler img {
+    width: 20px;
+  }
+  .content-top-title {
+    color: var(--clr-black);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .content-top-btn {
+    margin-left: 18px;
+  }
+  .content-top-btn img {
+    width: 24px;
+  }
+  
+  .content-top-left {
+    display: flex;
+    align-items: center;
+  }
+  .avatar {
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%; 
+    background-color: rgb(168, 30, 168); 
+    display: inline-block; 
+    margin-left: 10px; 
+    border: 1px solid rgb(220, 214, 214);
+  }

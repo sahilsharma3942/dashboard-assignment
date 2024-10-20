@@ -1,0 +1,58 @@
+
+.order-table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    background-color: var(--clr-primary);
+  }
+  
+  .order-table th,
+  .order-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #eee;
+    color: var(--clr-black);
+    font-size: 13px;
+    font-weight: 300;
+  }
+  
+  .order-table thead th {
+    color: var(--clr-gray);
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
+  .id {
+    font-weight: 500;
+  }
+  
+  .profit-value {
+    font-weight: 600;
+  }
+  
+  .profit-percentage {
+    color: #34d399;
+    margin-left: 6px;
+    font-weight: 500;
+  }
+  
+  .status-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .status-label {
+    background-color: #fde68a;
+    color: #f59e0b;
+    padding: 4px 8px;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .status-dropdown {
+    background: none;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+  }

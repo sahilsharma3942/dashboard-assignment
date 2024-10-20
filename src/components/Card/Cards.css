@@ -1,0 +1,44 @@
+/* grid c1 */
+.grid-c1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-c1-content {
+    background-color: white;
+    flex: 1;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.lg-value {
+    margin-top: 8px;
+    margin-bottom: 16px;
+    color: #c7c4c6;
+}
+
+.wrap1 {
+    flex: 1;
+}
+
+.wrap2 {
+    flex: 2
+}
+
+.chart {
+
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .grid-c1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
