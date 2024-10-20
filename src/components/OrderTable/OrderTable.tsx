@@ -2,7 +2,7 @@ import React from 'react';
 import './OrderTable.css';
 
 type Order = {
-  id: string;
+  id: string | number;
   created: string;
   customer: string;
   total: string;

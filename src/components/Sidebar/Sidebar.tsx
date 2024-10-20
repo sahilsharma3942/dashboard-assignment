@@ -1,6 +1,6 @@
 import { useEffect, useState, useContext } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { iconsImgs, imgs } from '../../utils/images';
+import {  imgs } from '../../utils/images';
 import { navigationLinks } from '../../data/data';
 import './Sidebar.css';
 import { SidebarContext } from '../../context/sidebarContext';

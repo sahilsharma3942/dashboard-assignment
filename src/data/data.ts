@@ -5,14 +5,7 @@ export interface Profit {
   percentage: string;
 }
 
-export interface Order {
-  id: string | number;
-  created: string;
-  customer: string;
-  total: string;
-  profit: Profit;
-  status: string;
-}
+
 export const navigationLinks = [
     { id: 1, title: 'Dashboard', image: iconsImgs.dashboard },
     { id: 2, title: 'Order Management', image: iconsImgs.orderManagement },
@@ -42,8 +35,8 @@ export const orderStatuses = [
     "Cancelled",
   ];
 
-// Generate 50 orders with random statuses
-export const orders: Order[] = Array.from({ length: 200 }, (_, index) => ({
+// Generate 200 orders with random statuses
+export const orders = Array.from({ length: 200 }, (_, index) => ({
   id: index + 1,
   created: getRandomDate(30),
   customer: 'Joseph Wheeler',
