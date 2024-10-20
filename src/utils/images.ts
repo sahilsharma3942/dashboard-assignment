@@ -1,5 +1,5 @@
 // icons
-import brand from "../assets/icons/Brand.png";
+import brand from "../assets/icons/brand.png";
 import categories from "../assets/icons/categories.png";
 import coupons from "../assets/icons/coupons.png";
 import customers from "../assets/icons/cutomers.png";
