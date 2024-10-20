@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: your-service-name
+    env: static
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run dev
+    staticPublishPath: dist
+    # Add the following:
+    routes:
+      - src: /*
+        dest: /index.html
+        status: 200
