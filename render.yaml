@@ -4,9 +4,7 @@ services:
     env: static
     plan: free
     buildCommand: npm install && npm run build
-    startCommand: npm run preview
     staticPublishPath: dist
-    # Add the following:
     routes:
       - src: /*
         dest: /index.html
